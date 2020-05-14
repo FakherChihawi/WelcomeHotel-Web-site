@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Hotel</title>
+    <!-- Style links-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.lightroom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!--fonts links-->
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        
+</head>
+<body class="bg-dark">
+    
+    <header id="header" style="background-color: rgba(0, 0, 0, 0.5);" >
+    <!--- Navigation --->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#"><img class="logo" height="50px" width="auto" src="./img/logo-white.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+           <li class="nav-item">
+              <a href="#about" class="nav-link about-maker">About</a>
+           </li>
+          <li class="nav-item">
+              <a href="#services" class="nav-link services-maker">Service</a>
+          </li>
+          <li class="nav-item">
+              <a href="#galery" class="nav-link galery-maker">Galery</a>
+          </li>
+          <li class="nav-item">
+              <a href="#prices" class="nav-link prices-maker">Prices</a>
+          </li>
+          <li class="nav-item">
+              <a href="#contact" class="nav-link contact-maker">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="booking.html" class="nav-link">Booking</a>
+        </li>
+        </ul> 
+        
+      </div>
+    </nav>
+
+          <div class="container-fluid video-container">
+            <video autoplay muted class="video1" id="video1">
+              <source src="./videos/video1.mp4" type="video/mp4">
+            </video>
+            <video  muted class="video2" id="video2">
+              <source src="./videos/video2.mp4" type="video/mp4">
+            </video>
+            <video  muted class="video3" id="video3">
+              <source src="./videos/video3.mp4" type="video/mp4">
+            </video>
+
+          </div>
+
+          <!--- Social Medai --->
+          <div class="social-media fixed-right">
+            <ul>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa fa-youtube"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+          
+    </header>
+    <div class="textContainer">
+      <div class="titleHeader">Welcome</div>
+      <p clas="content">To Our Hotel</p>
+      <a href="booking.html" class="btn">Booking with us</a>
+     </div>
+    <div class="ToUp">
+      <a href="#header">
+        <i class="fa fa-angle-up"></i>
+      </a>
+    </div>
+
+    <main>
+      <!--- About Us --->
+      <section class="about">
+       <div class="container  about-container"  style="padding-top: 100px;" id="about">
+          
+        <!-- Card 1-->
+        <div class="aboutcard col-md-3 col-sm-12">
+          <div class="face face1">
+            <div class="content">
+              <img src="./img/hotel.png" alt="">
+              <h3>General</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>24hours reception, ATM, Computer, Express check-in, Express check-out, Newspapers, Smoke free property, Smoking areas
+              </p>
+            </div>
+          </div>
+        </div>  
+
+        <!-- Card 2-->
+        <div class="aboutcard col-md-3 col-sm-12">
+          <div class="face face1">
+            <div class="content">
+              <img src="./img/room.png" alt="">
+              <h3>Confertebel</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Luggage storage, Safe-deposit box</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3-->
+        <div class="aboutcard col-md-3 col-sm-12">
+          <div class="face face1">
+            <div class="content">
+              <img src="./img/receptionist.png" alt="">
+              <h3>Services</h3>
+            </div>
+          </div>
+          <div class="face face2" >
+            <div class="content">
+              <p>Internet, Transfer(Area shuttle), Gym, Tour assistance, Elevator/lift</p>
+            </div>
+          </div>
+        </div>          
+
+       </div>
+      </section>
+      <!--- End About Us --->
+      
+      <!--- Services --->
+      <section class="services">
+      <div class="container-fluid service-container center text-center "   id="services">
+        
+        <div class="title text-center">
+          <span style="transform: translateX(-20px);"></span>
+          <p>Our Services</p>
+          <span style="transform: translateX(20px);"></span>
+        </div>
+       <div class="bloc">
+          <div class="serv">
+              <img src="./img/rooms1.jpg" class="img">
+              <h4>Rooms </h4> 
+          </div>
+
+          <div class="serv">
+              <img src="./img/resto.jpg" class="img">
+              <h4>Restorant</h4>
+          </div>
+
+          <div class="serv">
+              <img src="img/pool.jpg" class="img">
+              <h4>Pool</h4>
+          </div>
+
+          <div class="serv">
+              <img src="./img/goodview.jpg" class="img">
+              <h4>Good View</h4>
+          </div>
+
+          <div class="serv">
+              <img src="./img/span.jpg" class="img">
+              <h4>Span</h4>
+          </div>
+
+          <div class="serv">
+              <img src="./img/showcooking.jpg" class="img">
+              <h4>Show Cooking</h4>
+          </div>
+
+        </div>
+      </div>
+      </section>
+      <!--- End Services --->
+
+      <!--- Galery --->
+      <section class="galery">
+        <div class="galery-section ">
+          <div class="container-fluid inner-width"  id="galery" style="transform: translateY(-180px);">
+            <div class="title text-center">
+              <span style="transform: translateX(-20px);"></span>
+              <p>Our Services</p>
+              <span style="transform: translateX(20px);"></span>
+            </div>
+            <div class="gelery" style="position: relative;transform: translateY(40px);transform: translateX(-100px);">
+              <!-- Page Content -->
+  <div class="container">
+  
+    <div class="row text-center text-lg-left">
+  
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#./img/galery/1.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/1.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/2.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/2.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/3.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/3.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/4.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/4.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/5.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/5.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/6.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/6.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/7.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/7.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/8.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/8.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/9.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/9.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/10.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/10.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/11.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/11.jpg" alt="">
+            </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="./img/galery/3.jpg" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="./img/galery/3.jpg" alt="">
+            </a>
+      </div>
+    </div>
+  
+  </div>
+       <!-- /.container -->
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--- End Galery --->
+
+      <!--- Booking --->
+      <section class="booking">
+      <div class="booking-container container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center  center contentBooking">
+              Welcome to Welcome Hotel, and we provide you with the finest services and the best prices you may not receive.         </p>
+            <a href="booking.html" class="btn">Booking with us</a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--- End Booking --->
+
+      <!--- prices --->
+    <section class="prices">
+    <div class="prices-container">
+      <div class="container-fluid text-center text-md-left"   id="prices">
+        <div class="title center text-center">
+          <span style="transform: translateX(-20px);"></span>
+          <p>Our Prices</p>
+          <span style="transform: translateX(20px);"></span>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="pricingtable">
+              <span class="icon"><i class="fa fa-globe"></i></span>
+              <div class="pricingtable-header">
+                <h3 class="prince-title">Double Room</h3>
+                <span class="prince-value" style="margin-top: 6px;">$60</span>
+              </div>
+              <ul class="pricing-content">
+                <li>2 lits simples ou 1 lit double</li>
+                <li>Superficie de la chambre : 20 m²/215 ft²</li>
+                <li>politique tabac–interdiction de fumer</li>
+              </ul>
+              <a href="Formbooking.html" class="pricingtable-resreve">reserve</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="pricingtable">
+              <span class="icon"><i class="fa fa-globe"></i></span>
+              <div class="pricingtable-header">
+                <h3 class="prince-title">Superior Double Room</h3>
+                <span class="prince-value">$70</span>
+              </div>
+              <ul class="pricing-content">
+                <li>1 lit double</li>
+                <li>Superficie de la chambre : 18 m²/194 ft²</li>
+                <li>vue : ville</li>
+              </ul>
+              <a href="Formbooking.html" class="pricingtable-resreve">reserve</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="pricingtable">
+              <span class="icon"><i class="fa fa-globe"></i></span>
+              <div class="pricingtable-header">
+                <h3 class="prince-title">Superior Triple Room</h3>
+                <span class="prince-value">$10</span>
+              </div>
+              <ul class="pricing-content">
+                <li>3 lits simples</li>
+                <li>Superficie de la chambre : 25 m²/269 ft²</li>
+                <li>vue : ville</li>
+              </ul>
+              <a href="" class="pricingtable-resreve">reserve</a>
+            </div>
+          </div>
+
+          
+          
+        </div>
+        <a href="booking.html" class="pricingtable-resreveButton">More</a>
+      </div>
+    </div>
+    </section>
+    <!--- End prices --->
+
+    <!--- Contact --->
+    <section class="contact">
+      <div class="contact-container bg-light" id="contact">
+        <div class="container-fuid">
+          <div class="title center text-center">
+            <span style="transform: translateX(-20px);"></span>
+            <p style="color: #333">Our Contact</p>
+            <span style="transform: translateX(20px);"></span>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="contactInfo">
+                <div class="contactInfo-header">
+                  <img src="./img/map.png" alt="">
+                </div>
+                <div class="contactInfo-text text-center">
+                  <h2>Location</h2>
+                  <p>Sfax,Tunis</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contactInfo">
+                <div class="contactInfo-header">
+                  <img src="./img/plane.png" alt="">
+                </div>
+                <div class="contactInfo-text text-center">
+                  <h2>E-address</h2>
+                  <p>welcome.hotel@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contactInfo">
+                <div class="contactInfo-header">
+                  <img src="./img/phone.png" alt="">
+                </div>
+                <div class="contactInfo-text text-center">
+                  <h2>Phone</h2>
+                  <p>+216 74362585</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contactForm col-md-6 col-sm-12">
+              <h2>Let's get in touch</h2>
+              <form class="form" action="">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name..">
+                <input type="email" class="form-control"  name="email" id="email" placeholder="Enter your email..">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter your subject..">
+                <textarea name="message" style="height: 150px;" class="form-control" id="message" cols="70" rows="6" placeholder="Enter your message.."></textarea>
+                
+                <input type="button" class="btn button" value="send a message">
+              </form>
+            </div>
+            <div class="contactMaps col-md-6 col-sm-12">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--- End Contact --->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3 descrip">
+    
+            <!-- Content -->
+            <div class="logo"><img height="150px" width="auto" src="./img/logo-white.png" alt=""></div>
+    
+            <h5 class="text-uppercase">Welcome Hotel </h5>
+            is a beachfront hotel located in Gammarth in a quiet and relaxing area overlooking the magnificent Mediterranean Sea.
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          
+          <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled footer-list">
+              <li>
+                <a href="#about" >About</a>
+             </li>
+            <li>
+                <a href="#services" >Service</a>
+            </li>
+            <li>
+                <a href="#galery">Galery</a>
+            </li>
+            <li>
+                <a href="#prices">Prices</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="booking.html">Booking</a>
+            </li>
+            </ul>
+    
+          </div>
+    
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase" style="color: white;">Contact:</h5>
+    
+            <ul class="list-unstyled footer-list">
+              <li>
+                Adress : Sfax, Tunisia
+              </li>
+              <li>
+                E-mail: welcome.hotel@gmail.com
+              </li>
+              <li>
+                Phone: 74362585
+              </li>
+            </ul>
+    
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="footer-copyright text-center py-3">© 2020 Copyright: Welcome Hotel
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- JS Files-->
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+
+   
+  
+  </body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Hotel</title>
+    <title>Welcome Hotel</title>
+    <!-- Style links-->
+    <link rel="stylesheet" href="./css/formbooking.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--fonts links-->
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+</head>
+<body class="bg-dark">
+    <header id="header">
+         <!--- Navigation --->
+     <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#"><img class="logo" height="50px" width="auto" src="./img/logo-white.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+             </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item">
+                <a href="#galery" class="nav-link">Galery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#prices" class="nav-link">Prices</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Booking</a>
+            </li>
+          </ul> 
+          
+        </div>
+      </nav>
+      <div class="header container-fluid">
+       <div class="text">
+          <span>Booking a room</span>
+          <p>You Chose a Good Place</p>
+       </div>
+     
+       <div class="social-media fixed-right">
+        <ul>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+      
+</header>
+<div class="ToUp">
+  <a href="#header">
+    <i class="fa fa-angle-up"></i>
+  </a>
+</div>
+    <main>
+      <section class="contact-container bg-light">
+        <div class="container-fuid">
+         
+          
+          <div class="row">
+            <div class="contactForm col-md-6 col-sm-12">
+              <p class="title">Let's get in touch</p>
+              <form class="form" action="">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name..">
+                <input type="number" class="form-control" name="cin" id="cin" placeholder="Enter your CIN or Num Passport..">
+                <input type="email" class="form-control"  name="email" id="email" placeholder="Enter your email..">
+                
+                <div class="row">
+                
+                  <div class="form-group col-6">
+                    <label class="label"  for="numPlace">Place Number:</label>
+                  <input type="number" style="width: 100px;height: 60px;" name="numPlace" id="numPlace" class="form-control" name="numPlace" iplaceholder="Enter your place number..">
+                  </div>
+                
+                <div class="form-group col-6">
+                  <label class="label"  for="numPlace">Country:</label>
+                  <select class="form-control" style="width: 150px;height: 60px;"   name="Country" id="Country">
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="USA">USA</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-group ">
+                  <label class="label"  for="Tem">N° Phone (facultatif):</label>
+                  <input type="tel" style="width: 200px;height: 60px;" name="tel" id="tel" class="form-control" name="tel" iplaceholder="Enter your Num Tel..">
+                </div>
+
+              <div class="row smoke">
+                <span  class="label" >Smoker: </span>
+                  <div class="form-group ">
+                    <input type="checkbox" style="width: 40px;height: 40px;"  class="form-control" name="smoker" id="smoker"> 
+                    <label for="smoker">Yes</label>                
+                  </div>
+                <div class="form-group">
+                  <input type="checkbox"  class="form-control" style="width: 40px;height: 40px;"   name="smoker" id="smoker"> 
+                  <label for="smoker">No</label>  
+                </div>
+              </div>
+
+                <input type="button" class="btn button" value="send a message">
+              </form>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="resImg" src="./img/reservation.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+       <!-- Footer -->
+       <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3 descrip">
+      
+              <!-- Content -->
+              <div class="logo"><img height="150px" width="auto" src="./img/logo-white.png" alt=""></div>
+      
+              <h5 class="text-uppercase">Welcome Hotel </h5>
+              is a beachfront hotel located in Gammarth in a quiet and relaxing area overlooking the magnificent Mediterranean Sea.
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            
+            <div class="col-md-3 mb-md-0 mb-3">
+              <ul class="list-unstyled footer-list">
+                <li>
+                  <a href="#about" >About</a>
+               </li>
+              <li>
+                  <a href="#services" >Service</a>
+              </li>
+              <li>
+                  <a href="#galery">Galery</a>
+              </li>
+              <li>
+                  <a href="#prices">Prices</a>
+              </li>
+              <li>
+                  <a href="">Contact</a>
+              </li>
+              <li>
+                  <a href="booking.html">Booking</a>
+              </li>
+              </ul>
+      
+            </div>
+      
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase" style="color: white;">Contact:</h5>
+      
+              <ul class="list-unstyled footer-list">
+                <li>
+                  Adress : Sfax, Tunisia
+                </li>
+                <li>
+                  E-mail: welcome.hotel@gmail.com
+                </li>
+                <li>
+                  Phone: 74362585
+                </li>
+              </ul>
+      
+            </div>
+          </div>
+      
+        </div>
+      
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Welcome Hotel
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+</html>
